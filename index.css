@@ -1,0 +1,184 @@
+:root{
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color:  rgb(80, 47, 63);;
+    font-family: 'Norse-Bold.otf', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+@font-face {
+    font-family: 'Norse-Bold.otf';
+    src: url(/home/musta/Downloads/Norse-Bold.otf); /*norse font*/
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.7;
+    padding-left: 40px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    right: 45.3%;
+}
+
+.image{
+    margin: 0;
+    padding: 0 ;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 3rem;
+    display: flex;
+    margin-left:25px;
+}
+
+.words{
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+.seconedContainer {
+    border: 1px solid #aa00ff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(235, 6, 116);
+}
+
+.classOne,.classThree{
+    background-color: rgb(211 125 167);
+}
+
+.classTwo{
+    background-color: #4d86b7; 
+}
+
+.disclaimer{
+    display: grid;
+    line-height: 1.5rem;
+    font-size: 24px;
+}
+
+
+
+
+.classOne,
+.classTwo,
+.classThree{
+    padding: 5rem; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+@media screen and (min-width: 2560px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media screen and (min-width:2560px) {
+    .disclaimer{
+        line-height: 1.5rem;
+        font-size: 24px;
+        display: grid;
+        grid-column:span 2;
+    }
+}
+
+#name{
+    border: solid rgb(211 125 167);
+    border-radius: 0.5rem;
+    padding: 2px;
+}
+
+.passwordAndConfirm, .emailAndNumber, .firstNameAndLastName{
+    display: flex;
+    padding: 30px;
+    box-shadow: 2px 2px 2px rgb(211 125 167);
+    border-radius: 1.5rem;
+}
+
+.emailAndNumber,.passwordAndConfirm, .firstNameAndLastName{
+    display: flex;
+    justify-content:space-around;
+}
+
+.button{
+    padding: 1rem;
+    background-color:#49269f;
+    border-radius: 0.5rem;
+    box-shadow: 2px, 2px, 2px #4d86b7;
+    width: 20%;
+    color: rgb(226, 226, 226);
+    font-size: medium;
+    font-weight: 900;
+}
+
+.alreadyHave{
+  font-size:medium;
+}
+
+.logIn button{
+    background-color: #49269f;
+    border-radius: 0.2rem;
+    font-weight: 900;
+    color: rgb(247, 174, 174);
+}
+
+.classThree{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+input:hover{
+    border-color: red;
+}
+
+input{
+    border-radius: 0.3rem;
+}
+
+
+@media screen  and (min-width:2560px){
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        opacity: 0.7;
+        padding-left: 40px;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        background-color: black;
+        right: 59.1%;
+    }
+}
+
